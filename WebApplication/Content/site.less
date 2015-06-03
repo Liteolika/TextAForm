@@ -1,24 +1,29 @@
-﻿body {
+﻿
+@maincolor: #ff9900;
+@hovercolor: #000000;
+
+body {
     background-color: #ffffff;
+
+    /*font-family: 'Indie Flower', cursive;
+    font-size: 4em;*/
 }
 
-
 a {
-    color: #ff9900;
+    color: @maincolor;
 }
 
 a:hover {
-    color: #c17402;
+    color: @hovercolor;
     text-decoration: none;
 }
-
 
 header {
     margin-top: 20px;
     padding-bottom: 20px;
     /*margin-top: 20px;
     padding-bottom: 20px;*/
-    border-bottom: solid 1px #808080;
+    border-bottom: solid 1px @maincolor;
 
     .navbar-toggle {
         position: relative;
@@ -56,7 +61,8 @@ header {
 
     .nav-pills > li > a {
         color: #808080;
-        font-weight: bold;
+        /*font-weight: bold;*/
+        padding-bottom: 3px;
     }
 
     .nav-pills > li > a:focus {
@@ -70,9 +76,11 @@ header {
         text-decoration: none;
         font-weight: bold;
         border-radius: 0;
-        border-bottom-width: 4px;
+        
+        border-bottom-width: 1px;
         border-bottom-style: solid;
-        border-bottom-color: #ff9900;
+        border-bottom-color: @maincolor;
+
         color: #000 !important;
         background-color: transparent !important;
     }
@@ -86,6 +94,8 @@ header {
 
     .site-header {
         /*background-color: blue;*/
+        margin-right: 20px;
+        margin-left: 3px;
     }
 }
 
@@ -99,19 +109,31 @@ header {
     font-size: 20px;
     font-weight: bold;
     border-bottom: none;
-    color: #ff9900;
+    color: @maincolor;
 }
 
 .page-subtitle {
-    /*margin: 20px 0 -5px;*/
-    
     margin-top: 10px;
     font-size: 15px;
     font-weight: bold;
     border-bottom: none;
-    color: #ff9900;
+    color: @maincolor;
 }
 
+.carousel-control {
+    background-image: none !important;
+    background-repeat: no-repeat !important;
+
+    span {
+        color: #797979;
+        display: none !important;
+    }
+}
+
+.carousel-caption {
+    color: black;
+    text-shadow: none;
+}
 
 .panel {
     .panel-heading {
@@ -140,17 +162,11 @@ header {
     }
 }
 
-
 footer {
-    background-color: #eee;
-    border: solid 1px #808080;
-    border-radius: 5px;
-    padding: 8px;
+    border-top: solid 1px @maincolor;
     margin-top: 20px;
-    font-style: italic;
-    font-size: 0.8em;
+    padding: 10px;
 }
-
 
 /*
     @media(max-width:767px){}
