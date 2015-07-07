@@ -57,47 +57,60 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Properties\PublishProfiles\textaform.liteolika.net.pubxml" />
-    <None Include="Web.Debug.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-    <None Include="Web.Release.config">
-      <DependentUpon>Web.config</DependentUpon>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="App\about\about.html" />
-    <Content Include="App\about\Annette.jpg" />
-    <Content Include="App\about\Annette_crop.jpg" />
-    <Content Include="App\config_route.js" />
-    <Content Include="App\contact\contact.html" />
-    <Content Include="App\customers\845\845.html" />
-    <Content Include="App\customers\books\books.html" />
-    <Content Include="App\customers\hh\hh.html" />
-    <Content Include="App\customers\softit\softit.html" />
-    <Content Include="App\customers\spsf\test1.jpg" />
-    <Content Include="App\customers\spsf\test2.png" />
-    <Content Include="App\customers\spsf\test3.png" />
-    <Content Include="App\customers\spsf\test4.png" />
-    <Content Include="App\home\carousel\Hands.jpg" />
-    <Content Include="App\home\carousel\Pengar.jpg" />
-    <Content Include="App\home\carousel\Pussel.jpg" />
-    <Content Include="App\home\carousel\Stenar.jpg" />
-    <Content Include="App\home\carousel\Verktyg.jpg" />
-    <Content Include="App\home\home.html" />
-    <Content Include="App\app.js" />
-    <Content Include="App\customers\lob\Lekrevy_framsida.jpg" />
-    <Content Include="App\customers\lob\leksaksrevyn_loggo.jpg" />
-    <Content Include="App\customers\lob\Lek_uppslag.jpg" />
-    <Content Include="App\customers\lob\lob.html" />
-    <Content Include="App\customers\lob\Prislista_lek.jpg" />
-    <Content Include="App\customers\lob\Spelkatalog_2008.jpg" />
-    <Content Include="App\customers\customers.html" />
-    <Content Include="App\customers\spsf\NPlog.jpg" />
-    <Content Include="App\customers\spsf\NPuppslag_1-1.jpg" />
-    <Content Include="App\customers\spsf\NP_framsida.jpg" />
-    <Content Include="App\customers\spsf\spsf.html" />
-    <Content Include="App\references\references.html" />
+    <Content Include="App\about\Acrobat.png" />
+    <Content Include="App\about\Ai.png" />
+    <Content Include="App\about\ID.png" />
+    <Content Include="App\about\Microsoft_Office_2013.png" />
+    <Content Include="App\about\PS.png" />
+    <Content Include="App\customers\books\canopus\Officer-1.jpg" />
+    <Content Include="App\customers\books\canopus\Officer-2.jpg" />
+    <Content Include="App\customers\books\canopus\Officer-3.jpg" />
+    <Content Include="App\customers\books\canopus\Officer-4.jpg" />
+    <Content Include="App\customers\books\canopus\Officer-5.jpg" />
+    <Content Include="App\customers\books\canopus\Officer-6.jpg" />
+    <Content Include="App\customers\books\jim\Linderoth_1.jpg" />
+    <Content Include="App\customers\books\jim\Linderoth_2.jpg" />
+    <Content Include="App\customers\books\jim\Linderoth_omsl.jpg" />
+    <Content Include="App\customers\books\jim\Lindholmen_1.jpg" />
+    <Content Include="App\customers\books\jim\Lindholmen_2.jpg" />
+    <Content Include="App\customers\books\jim\Lindholmen_3.jpg" />
+    <Content Include="App\customers\books\jim\Lindholmen_omsl.jpg" />
+    <Content Include="App\customers\books\larsson\Rune_Larsson.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles2_omsl.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles_1_omsl.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles_Bok1_1.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles_Bok1_2.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles_Bok1_3.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles_Bok2_1.jpg" />
+    <Content Include="App\customers\books\lybeck\Biggles_Bok2_2.jpg" />
+    <Content Include="App\customers\books\savsjo\Savsjo-1.jpg" />
+    <Content Include="App\customers\books\savsjo\Savsjo-2.jpg" />
+    <Content Include="App\customers\books\savsjo\Savsjo-3.jpg" />
+    <Content Include="App\customers\books\savsjo\Savsjo-4.jpg" />
+    <Content Include="App\customers\lob\carousel\Formex_host2014.jpg" />
+    <Content Include="App\customers\lob\carousel\KindJugend_2.jpg" />
+    <Content Include="App\customers\lob\carousel\Lek_framsida.jpg" />
+    <Content Include="App\customers\lob\carousel\Nurnberg_2.jpg" />
+    <Content Include="App\customers\lob\carousel\Pippi_70.jpg" />
+    <Content Include="App\customers\lob\carousel\Serviceartikel.jpg" />
+    <Content Include="App\customers\lob\carousel\ToyFair_1.jpg" />
+    <Content Include="App\customers\lob\lekbabyrevyn.jpg" />
+    <Content Include="App\customers\lob\lobDivCarousel\Bli_medlem.jpg" />
+    <Content Include="App\customers\lob\lobDivCarousel\Diplom_Leksak.jpg" />
+    <Content Include="App\customers\lob\lobDivCarousel\Diplom_Spel.jpg" />
+    <Content Include="App\customers\lob\lobDivCarousel\ITMA_annons.jpg" />
+    <Content Include="App\customers\lob\lobDivCarousel\Prislista_inlaga.jpg" />
+    <Content Include="App\customers\lob\lobDivCarousel\Prislista_omslag.jpg" />
+    <Content Include="App\customers\softit\carousel\iKLARTEXT-1.jpg" />
+    <Content Include="App\customers\softit\carousel\iKLARTEXT-2.jpg" />
+    <Content Include="App\customers\softit\carousel\iKLARTEXT-3.jpg" />
+    <Content Include="App\customers\softit\Klartxt.jpg" />
+    <Content Include="App\customers\spsf\carousel\NP1_15_Fram.jpg" />
+    <Content Include="App\customers\spsf\carouseldiv\Kontrollprogram_omslag.jpg" />
+    <Content Include="App\customers\spsf\carouseldiv\SHB_omslag.jpg" />
+    <Content Include="App\customers\spsf\carouseldiv\SPSFs-märken.jpg" />
+    <Content Include="App\customers\spsf\carouseldiv\Utbildning_omslag.jpg" />
+    <Content Include="App\customers\spsf\carouseldiv\Vitbok.jpg" />
     <Content Include="Content\bootstrap\bootstrap.css">
       <DependentUpon>bootstrap.less</DependentUpon>
     </Content>
@@ -105,20 +118,6 @@
       <DependentUpon>bootstrap.css</DependentUpon>
     </Content>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\images\Logga.jpg" />
-    <Content Include="Content\images\Logga_35.jpg" />
-    <Content Include="Content\images\Logga_md.jpg" />
-    <Content Include="Content\images\Logga_sm.jpg" />
-    <Content Include="Content\js\caroulsel-starter.js" />
-    <Content Include="Content\js\navbar-init.js" />
-    <Content Include="Content\site.css">
-      <DependentUpon>site.less</DependentUpon>
-    </Content>
-    <Content Include="Content\site.min.css">
-      <DependentUpon>site.css</DependentUpon>
-    </Content>
-    <Content Include="index.html" />
-    <Content Include="packages.config" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
     <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
@@ -152,6 +151,7 @@
     <Content Include="Content\bootstrap\mixins\size.less" />
     <Content Include="Content\bootstrap\mixins\responsive-visibility.less" />
     <Content Include="Content\bootstrap\mixins\resize.less" />
+    <Content Include="Content\bootstrap\mixins\reset-text.less" />
     <Content Include="Content\bootstrap\mixins\reset-filter.less" />
     <Content Include="Content\bootstrap\mixins\progress-bar.less" />
     <Content Include="Content\bootstrap\mixins\panels.less" />
@@ -193,23 +193,76 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
-    <Content Include="Scripts\angular-ui-router.js" />
-    <Content Include="Scripts\angular-ui-router.min.js" />
+    <None Include="Properties\PublishProfiles\textaform.liteolika.net.pubxml" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
-    <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-2.1.4.intellisense.js" />
+    <Content Include="Scripts\jquery-2.1.4.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.js" />
+    <Content Include="Scripts\jquery-2.1.4.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App\about\about.html" />
+    <Content Include="App\about\Annette.jpg" />
+    <Content Include="App\about\Annette_crop.jpg" />
+    <Content Include="App\config_route.js" />
+    <Content Include="App\contact\contact.html" />
+    <Content Include="App\customers\books\books.html" />
+    <Content Include="App\customers\softit\softit.html" />
+    <Content Include="App\customers\spsf\carousel\Antikrundan.jpg" />
+    <Content Include="App\customers\spsf\carousel\MagnumSM_1.jpg" />
+    <Content Include="App\customers\spsf\carousel\Precision_SM.jpg" />
+    <Content Include="App\customers\spsf\carousel\Skanaker_1.jpg" />
+    <Content Include="App\customers\spsf\carousel\Unique_1.jpg" />
+    <Content Include="App\customers\spsf\Logga-original-gul.jpg" />
+    <Content Include="App\customers\spsf\NPlog.jpg" />
+    <Content Include="App\home\carousel\Hands.jpg" />
+    <Content Include="App\home\carousel\Pengar.jpg" />
+    <Content Include="App\home\carousel\Pussel.jpg" />
+    <Content Include="App\home\carousel\Stenar.jpg" />
+    <Content Include="App\home\carousel\Verktyg.jpg" />
+    <Content Include="App\home\home.html" />
+    <Content Include="App\app.js" />
+    <Content Include="App\customers\lob\lob.html" />
+    <Content Include="App\customers\customers.html" />
+    <Content Include="App\customers\spsf\spsf.html" />
+    <Content Include="App\references\carousel\Comprend.jpg" />
+    <Content Include="App\references\carousel\iKLARTEXT.jpg" />
+    <Content Include="App\references\carousel\Lek.jpg" />
+    <Content Include="App\references\carousel\Uffe.jpg" />
+    <Content Include="App\references\references.html" />
+    <Content Include="Content\images\Logga.jpg" />
+    <Content Include="Content\images\Logga_35.jpg" />
+    <Content Include="Content\images\Logga_md.jpg" />
+    <Content Include="Content\images\Logga_sm.jpg" />
+    <Content Include="Content\js\caroulsel-starter.js" />
+    <Content Include="Content\js\navbar-init.js" />
+    <Content Include="Content\site.css">
+      <DependentUpon>site.less</DependentUpon>
+    </Content>
+    <Content Include="Content\site.min.css">
+      <DependentUpon>site.css</DependentUpon>
+    </Content>
+    <Content Include="index.html" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Content\site.less" />
     <Content Include="Content\site.css.map">
       <DependentUpon>site.css</DependentUpon>
     </Content>
-    <None Include="Scripts\jquery-2.1.3.intellisense.js" />
-    <Content Include="Scripts\jquery-2.1.3.js" />
-    <Content Include="Scripts\jquery-2.1.3.min.js" />
+    <Content Include="testar1.css" />
     <Content Include="Web.config" />
-    <Content Include="Scripts\jquery-2.1.3.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />

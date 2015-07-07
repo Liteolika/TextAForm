@@ -37,19 +37,9 @@
                 templateUrl: "/app/customers/lob/lob.html"
             })
 
-            .state('customers-845', {
-                url: "/customers-845",
-                templateUrl: "/app/customers/845/845.html"
-            })
-
             .state('customers-books', {
                 url: "/customers-books",
                 templateUrl: "/app/customers/books/books.html"
-            })
-
-            .state('customers-hh', {
-                url: "/customers-hh",
-                templateUrl: "/app/customers/hh/hh.html"
             })
 
             .state('customers-softit', {
