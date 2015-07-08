@@ -112,6 +112,7 @@
     <Content Include="App\customers\spsf\carouseldiv\Utbildning_omslag.jpg" />
     <Content Include="App\customers\spsf\carouseldiv\Vitbok.jpg" />
     <Content Include="App\customers\spsf\Logga-original-gul.jpg" />
+    <Content Include="App\customers\spsf\np_v3.jpg" />
     <Content Include="Content\bootstrap\bootstrap.css">
       <DependentUpon>bootstrap.less</DependentUpon>
     </Content>
